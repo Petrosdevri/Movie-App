@@ -13,43 +13,43 @@
 }
 
 body {
+  background-color: #0D1321;
   font-family: var(--font-roboto);
-  background-color: #212426;
 }
 
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 4rem;
 }
 
 h1 {
   width: fit-content;
-  font-size: 3rem;
-  letter-spacing: 0.9px;
   background: linear-gradient(90deg, rgba(249, 211, 180, 1) 0%, rgba(249, 211, 180, 0) 100%);
   background-clip: text;
+  font-size: 3rem;
+  letter-spacing: 0.9px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .search {
   width: 71%;
-  background: #1f2123;
+  background: #003049;
   border-radius: 3rem;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 5px 5px 7px #1D2D44, -5px -5px 7px #1D2D44;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 4rem 0 2rem;
   padding: 1.5rem 1.75rem;
+  -webkit-box-shadow: 5px 5px 7px #1D2D44, -5px -5px 7px #1D2D44;
 }
 
 .search input {
-  background: #1F2123;
+  background: #003049;
   border: none;
   color: #A1A1A1;
   flex: 1;
@@ -75,7 +75,7 @@ h1 {
 }
 
 .empty h2 {
-  color: #f9d3b4;
+  color: #A1A1A1;
   font-family: var(--font-raleway);
   font-size: 1.25rem;
 }
@@ -103,7 +103,7 @@ h1 {
 
 .movie div:nth-of-type(1) {
   width: 100%;
-  color: #F9D3B4;
+  color: #748CAB;
   opacity: 0;
   padding: 16px;
   position: absolute;
@@ -145,7 +145,7 @@ h1 {
 }
 
 .movie div:nth-of-type(3) h3 {
-  color: #F9D3B4;
+  color: #748CAB;
   font-family: "Roboto Slab", serif;
   margin-top: 5px;
 }
